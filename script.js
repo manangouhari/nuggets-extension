@@ -26,7 +26,7 @@ chrome.contextMenus.onClicked.addListener((info, tab) => {
   .then((response) => response.json())
   .then((data) => {
     console.log(data.summary_id)
-    var newURL = `http://localhost:3000/s/${data.summary_id}`
+    var newURL = `https://nuggets.vercel.app/s/${data.summary_id}`
     chrome.tabs.create({ url: newURL })
   })
   .catch((error) => {
