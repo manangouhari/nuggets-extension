@@ -4,10 +4,8 @@
     "version": "0.1.0",
     "permissions": [
       "tabs",
-      "activeTab",
       "contextMenus",
-      "https://summarizer-text-hn.herokuapp.com/",
-      "http://summarizer-text-hn.herokuapp.com/"
+      "https://summarizer-text-hn.herokuapp.com/"
     ],
     "background": {
       "scripts": ["./script.js"],
