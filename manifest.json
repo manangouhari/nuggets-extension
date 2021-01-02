@@ -4,12 +4,7 @@
     "version": "0.1.0",
     "permissions": [
       "tabs",
-      "bookmarks",
       "activeTab",
-      "declarativeContent",
-      "webNavigation",
-      "activeTab",
-      "clipboardWrite",
       "contextMenus",
       "https://summarizer-text-hn.herokuapp.com/",
       "http://summarizer-text-hn.herokuapp.com/"
