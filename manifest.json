@@ -3,7 +3,6 @@
     "name": "Nuggets",
     "version": "0.1.0",
     "permissions": [
-      "tabs",
       "contextMenus",
       "https://summarizer-text-hn.herokuapp.com/"
     ],
